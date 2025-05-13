@@ -1,5 +1,5 @@
+import Genre from "@/entities/Genre"
 import useGenres from "@/hooks/useGenres"
-import Genre from "@/entities/Game"
 import getCroppedImgUrl from "@/services/image-url"
 import { HStack, Image, Link, List } from "@chakra-ui/react"
 
@@ -20,7 +20,7 @@ const GenreList = ({ onSelectGenre, selectedGenreId }: Props) => {
 							objectFit='cover'
 							boxSize='32px'
 							borderRadius={8}
-							src={getCroppedImgUrl(genre.background_image)}
+							src={getCroppedImgUrl(genre.image_background)}
 						/>
 						<List.Item as='ul' paddingY={2}>
 							<Link

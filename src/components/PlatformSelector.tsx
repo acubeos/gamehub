@@ -1,4 +1,4 @@
-import Platform from "@/entities/Game"
+import Platform from "@/entities/Platform"
 import usePlaforms from "@/hooks/usePlatforms"
 import { Button, Menu, Portal } from "@chakra-ui/react"
 import { LuChevronDown } from "react-icons/lu"

@@ -20,7 +20,7 @@ const GenreList = ({ onSelectGenre, selectedGenreId }: Props) => {
 							objectFit='cover'
 							boxSize='32px'
 							borderRadius={8}
-							src={getCroppedImgUrl(genre.image_background)}
+							src={getCroppedImgUrl(genre.background_image)}
 						/>
 						<List.Item as='ul' paddingY={2}>
 							<Link

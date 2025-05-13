@@ -1,4 +1,3 @@
-import { Platform } from "@/entities/Game"
 import { HStack, IconButton } from "@chakra-ui/react"
 import {
 	FaPlaystation,
@@ -12,6 +11,7 @@ import {
 } from "react-icons/fa"
 import { BsNintendoSwitch } from "react-icons/bs"
 import { IconType } from "react-icons"
+import Platform from "@/entities/Platform"
 
 interface Props {
 	platforms: Platform[]

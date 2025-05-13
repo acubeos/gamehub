@@ -2,7 +2,7 @@ import NavBar from "@/components/NavBar"
 import { Box, Heading, Text } from "@chakra-ui/react"
 import { useState } from "react"
 import { isRouteErrorResponse, useRouteError } from "react-router"
-import { GameQuery } from "./Home"
+import { GameQuery } from "./Layout"
 
 const ErrorPage = () => {
 	const error = useRouteError()

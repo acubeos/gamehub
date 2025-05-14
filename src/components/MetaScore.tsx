@@ -8,7 +8,7 @@ const MetaScore = ({ metacritic }: Props) => {
 	if (!metacritic) return null
 
 	return (
-		<Badge colorPalette={color} paddingx={2} fontSize='md'>
+		<Badge colorPalette={color} paddingX={2} fontSize='md'>
 			{metacritic}
 		</Badge>
 	)

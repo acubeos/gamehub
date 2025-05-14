@@ -3,7 +3,7 @@ import { Card, HStack, Skeleton, SkeletonText } from "@chakra-ui/react"
 const GameCardSkeleton = () => {
 	return (
 		<Card.Root overflow='hidden'>
-			<Skeleton loading={true} height='200px' width='300px' />
+			<Skeleton loading={true} height='200px' width='350px' />
 			<Card.Body>
 				<SkeletonText loading={true} noOfLines={1} />
 				<HStack justifyContent='space-between' pt={4}>

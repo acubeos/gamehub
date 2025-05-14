@@ -35,7 +35,7 @@ const Home = () => {
 					/>
 				</GridItem>
 				<GridItem area='main'>
-					<Box paddingLeft={4}>
+					<Box paddingX={4}>
 						<GameHeading gameHeading={gameQuery} />
 						<HStack marginBottom={2}>
 							<PlatformSelector

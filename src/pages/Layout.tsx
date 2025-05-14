@@ -19,7 +19,7 @@ const Layout = () => {
 					setGameQuery({ ...gameQuery, searchText })
 				}
 			/>
-			<Box padding={4}>
+			<Box padding={2}>
 				<Outlet context={{ gameQuery, setGameQuery }} />
 			</Box>
 		</>

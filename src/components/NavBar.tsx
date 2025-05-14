@@ -10,7 +10,7 @@ interface Props {
 
 const NavBar = ({ onSearchInput }: Props) => {
 	return (
-		<HStack padding={4}>
+		<HStack padding={6}>
 			<Link reloadDocument to={"/"}>
 				<Image src={logo} boxSize='40px' borderRadius={8} objectFit='cover' />
 			</Link>
